@@ -9,6 +9,7 @@ There is two kinds of system users, regular users and admins. Regular users can 
 * Relevent SQL Tables (Available through repository)
 
 * Add connection string for each .cs (Connection function near top of each relevent namespace)
+
 ![alt text](https://github.com/liamfotheringham/Gamification-Software/blob/master/ReadMeImages/cfd214b691c0af7d2c7e2ed651155339.png)
 
 # User Guide
