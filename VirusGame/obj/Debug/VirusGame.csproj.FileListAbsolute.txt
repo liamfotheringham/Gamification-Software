@@ -125,3 +125,6 @@ C:\Users\Liam\Desktop\VirusGame\VirusGame\obj\Debug\VirusGame.Login.resources
 C:\Users\Liam\Desktop\VirusGame\VirusGame\obj\Debug\VirusGame.VirusGame.resources
 C:\Users\Liam\Desktop\VirusGame\VirusGame\obj\Debug\VirusGame.Properties.Resources.resources
 C:\Users\Liam\Desktop\VirusGame\VirusGame\obj\Debug\VirusGame.csproj.GenerateResource.Cache
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\VirusGame.exe.config
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.exe
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.pdb
