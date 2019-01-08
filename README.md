@@ -1,4 +1,4 @@
-# Cybersafe Kids
+# Cyber Safe Kids
 Cyber Safe Kids is an educational piece of gamification software that aims to teach young children of the dangers from being online.
 
 This software is designed to be used in a School Environment. Users must login to the system initially, so they can be verified.
