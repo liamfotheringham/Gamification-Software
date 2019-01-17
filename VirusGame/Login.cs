@@ -49,11 +49,13 @@ namespace VirusGame
                 //Establish database connection
                 db_connection();
 
+                string EncryptedPassword = Eramake.eCryptography.Encrypt(txtInputPassword.Text);
+
                 //Check to see if Username and Password combination works
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandText = "SELECT COUNT (*) FROM dbo.GAMEUSERS WHERE Username = @Username COLLATE SQL_Latin1_General_CP1_CS_AS AND Password = @Pass COLLATE SQL_Latin1_General_CP1_CS_AS";
                 cmd.Parameters.AddWithValue("@Username", txtInputUsername.Text);
-                cmd.Parameters.AddWithValue("@Pass", txtInputPassword.Text);
+                cmd.Parameters.AddWithValue("@Pass", EncryptedPassword);
                 cmd.Connection = connect;
 
                 int result = (int)cmd.ExecuteScalar();
@@ -116,6 +118,15 @@ namespace VirusGame
         private void lblLogin_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //Switch to register form
+            this.Hide();
+            var RegisterWindow = new RegisterUser();
+            RegisterWindow.Closed += (s, args) => this.Close();
+            RegisterWindow.Show();
         }
     }
 }

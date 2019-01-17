@@ -128,3 +128,16 @@ C:\Users\Liam\Desktop\VirusGame\VirusGame\obj\Debug\VirusGame.csproj.GenerateRes
 C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\VirusGame.exe.config
 C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.exe
 C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.pdb
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\VirusGame.exe
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\VirusGame.pdb
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\eCryptography.dll
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\bin\Debug\MaterialSkin.dll
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.csprojResolveAssemblyReference.cache
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.Admin.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.MainGame.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.Highscores.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.Login.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.VirusGame.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.Properties.Resources.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.RegisterUser.resources
+C:\Users\Liam\Desktop\Gamification-Software\VirusGame\obj\Debug\VirusGame.csproj.GenerateResource.Cache
