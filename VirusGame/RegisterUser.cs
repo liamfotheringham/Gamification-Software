@@ -82,10 +82,17 @@ namespace VirusGame
                     {
                         MessageBox.Show("Registered User");
                     }
+
+                    //Switch to login form
+                    this.Hide();
+                    var LoginWindow = new Login();
+                    LoginWindow.Closed += (s, args) => this.Close();
+                    LoginWindow.Show();
                 }
 
                 //Close Connection
                 connect.Close();
+
             }
             catch
             {
@@ -108,6 +115,11 @@ namespace VirusGame
             var LoginWindow = new Login();
             LoginWindow.Closed += (s, args) => this.Close();
             LoginWindow.Show();
+        }
+
+        private void RegisterUser_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

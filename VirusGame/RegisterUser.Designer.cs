@@ -84,6 +84,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(74, 144);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(141, 20);
             this.txtPassword.TabIndex = 4;
             // 
@@ -114,6 +115,7 @@
             this.Controls.Add(this.btnRegister);
             this.Name = "RegisterUser";
             this.Text = "Cyber Safe Kids - Register";
+            this.Load += new System.EventHandler(this.RegisterUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
